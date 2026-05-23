@@ -9,13 +9,16 @@ type Props = {}
 const AuthenticationPage = (props: Props) => {
   const [mode, setMode] = useState<'login' | 'signup'>('login');
 
+
   return (
 
     <div>
+
+      <button onClick={() => setMode('login')}>Login</button>
+      <button onClick={() => setMode('signup')}>SignUp</button>
+
       <AuthenticationForm>
-
       {mode === 'login' ? <LoginForm /> : <SignUpForm />}
-
       </AuthenticationForm>
 
     </div>
@@ -23,4 +26,4 @@ const AuthenticationPage = (props: Props) => {
   )
 }
 
-export default AuthenticationPage
+export default AuthenticationPage;
