@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClamProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13d97e4c2066b7895a40f650c9b412c6c5515609")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bca84a6edaf42de928876847263e438b4197bb85")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClamProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClamProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
