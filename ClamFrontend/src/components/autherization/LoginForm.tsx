@@ -1,10 +1,11 @@
 import React from 'react'
+import './AuthenticationFormStyleling.css'
 
 type Props = {}
 
 const LoginForm = (props: Props) => {
   return (
-    <form>
+    <form className='form'>
 
         <h2>Login</h2>
 
@@ -16,4 +17,4 @@ const LoginForm = (props: Props) => {
   )
 }
 
-export default LoginForm
+export default LoginForm;

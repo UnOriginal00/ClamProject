@@ -12,7 +12,7 @@ const AuthenticationPage = (props: Props) => {
 
   return (
 
-    <div>
+    <div className='authentication-page'>
 
       <button onClick={() => setMode('login')}>Login</button>
       <button onClick={() => setMode('signup')}>SignUp</button>

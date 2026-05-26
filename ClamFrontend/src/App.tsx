@@ -1,15 +1,17 @@
 import React from 'react'
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import { Route , Routes } from 'react-router-dom'
 import './App.css'
 import AuthenticationPage from './pages/AuthenticationPage'
 
 function App() {
   return (
     <div className='App' >
-      <AuthenticationPage />
+      <main className='content'>
+        <Routes>
+          <Route path='/authenticationpage' element={<AuthenticationPage />}/>
+        </Routes>
+      </main>
     </div>
   )
 

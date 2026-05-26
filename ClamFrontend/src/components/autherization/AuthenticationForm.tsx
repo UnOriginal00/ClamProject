@@ -1,6 +1,7 @@
 import React from 'react'
 import LoginForm from './LoginForm'
 import SignUpForm from './SignUpForm'
+import './AuthenticationFormStyleling.css'
 
 type Props = {
   children: React.ReactNode;
@@ -14,4 +15,4 @@ const AuthenticationForm = ({children}: Props) => {
   )
 }
 
-export default AuthenticationForm
+export default AuthenticationForm;

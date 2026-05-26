@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|c:\\users\\pfumi\\desktop\\coding\\projects\\clam\\clamproject\\clamproject\\data\\clamdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|solutionrelative:clamproject\\data\\clamdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|c:\\users\\pfumi\\desktop\\coding\\projects\\clam\\clamproject\\clamproject\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|solutionrelative:clamproject\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|c:\\users\\pfumi\\desktop\\coding\\projects\\clam\\clamproject\\clamproject\\models\\userprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|solutionrelative:clamproject\\models\\userprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|c:\\users\\pfumi\\desktop\\coding\\projects\\clam\\clamproject\\clamproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|solutionrelative:clamproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|c:\\users\\pfumi\\desktop\\coding\\projects\\clam\\clamproject\\clamproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|solutionrelative:clamproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|c:\\users\\pfumi\\desktop\\coding\\projects\\clam\\clamproject\\clamproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|solutionrelative:clamproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|c:\\users\\pfumi\\desktop\\coding\\projects\\clam\\clamproject\\clamproject\\clamproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7DE23375-B6F1-EB1B-A0B6-917226A3F179}|ClamProject\\ClamProject.csproj|solutionrelative:clamproject\\clamproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClamDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Data\\ClamDbContext.cs",
+              "RelativeDocumentMoniker": "ClamProject\\Data\\ClamDbContext.cs",
+              "ToolTip": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Data\\ClamDbContext.cs",
+              "RelativeToolTip": "ClamProject\\Data\\ClamDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:29:35.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Models\\UserProfiles.cs",
+              "RelativeDocumentMoniker": "ClamProject\\Models\\UserProfiles.cs",
+              "ToolTip": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Models\\UserProfiles.cs",
+              "RelativeToolTip": "ClamProject\\Models\\UserProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T17:44:15.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "ClamProject\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Models\\Users.cs",
+              "RelativeToolTip": "ClamProject\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T17:39:03.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ClamProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ClamProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-26T17:37:41.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\appsettings.json",
+              "RelativeDocumentMoniker": "ClamProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\appsettings.json",
+              "RelativeToolTip": "ClamProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-26T17:37:36.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Program.cs",
+              "RelativeDocumentMoniker": "ClamProject\\Program.cs",
+              "ToolTip": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\Program.cs",
+              "RelativeToolTip": "ClamProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T17:36:35.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClamProject.http",
+              "DocumentMoniker": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\ClamProject.http",
+              "RelativeDocumentMoniker": "ClamProject\\ClamProject.http",
+              "ToolTip": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\ClamProject.http",
+              "RelativeToolTip": "ClamProject\\ClamProject.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-05-26T17:29:36.438Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

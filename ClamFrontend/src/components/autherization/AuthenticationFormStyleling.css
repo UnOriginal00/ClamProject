@@ -1,0 +1,36 @@
+.authentication-page{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+
+}
+
+
+.authentication-form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 0 0 20px 0;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+
+.form{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    
+}
