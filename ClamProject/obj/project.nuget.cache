@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZPupgtdAQZs=",
+  "dgSpecHash": "aPJXDtUZXdY=",
   "success": true,
   "projectFilePath": "C:\\Users\\pfumi\\Desktop\\Coding\\Projects\\Clam\\ClamProject\\ClamProject\\ClamProject.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,7 @@
     "C:\\Users\\pfumi\\.nuget\\packages\\system.composition.hosting\\7.0.0\\system.composition.hosting.7.0.0.nupkg.sha512",
     "C:\\Users\\pfumi\\.nuget\\packages\\system.composition.runtime\\7.0.0\\system.composition.runtime.7.0.0.nupkg.sha512",
     "C:\\Users\\pfumi\\.nuget\\packages\\system.composition.typedparts\\7.0.0\\system.composition.typedparts.7.0.0.nupkg.sha512",
-    "C:\\Users\\pfumi\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.18.0\\system.identitymodel.tokens.jwt.8.18.0.nupkg.sha512"
+    "C:\\Users\\pfumi\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.1\\system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

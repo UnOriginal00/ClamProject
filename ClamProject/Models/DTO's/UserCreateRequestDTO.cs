@@ -11,6 +11,5 @@ namespace ClamProject.Models.DTO_s
         [Required]
         public required string Password { get; set; }
 
-
     }
 }

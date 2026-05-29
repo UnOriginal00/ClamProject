@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 using ClamProject.Data;
 using ClamProject.Services;
+using ClamProject.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,7 @@ builder.Services.AddDbContext<ClamDbContext>(options =>
     )
 );
 
-builder.Services.AddScoped<UserServices>();
+builder.Services.AddScoped<IUserService,UserService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
