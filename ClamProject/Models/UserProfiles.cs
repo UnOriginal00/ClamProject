@@ -2,11 +2,11 @@
 {
     public class UserProfile
     {
-        Guid Id { get; set; }
-        Guid UserId { get; set; } = Guid.NewGuid();
-        string DisplayName { get; set; } = null!;
-        string AvatarUrl { get; set; }
-        User User { get; set; } = null!;
+        public Guid Id { get; set; }
+        public Guid UserId { get; set; } = Guid.NewGuid();
+        public string DisplayName { get; set; } = null!;
+        public string AvatarUrl { get; set; }
+        public User User { get; set; } = null!;
 
     }
 }
