@@ -1,17 +1,19 @@
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 using ClamProject.Data;
+using ClamProject.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+//Add db context service
 builder.Services.AddDbContext<ClamDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     )
 );
+
+builder.Services.AddScoped<UserServices>();
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

@@ -1,15 +1,21 @@
 [
   {
-    "ContainingType": "ClamProject.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
+    "ContainingType": "ClamProject.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User/createnewuser",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "ClamProject.Models.DTO_s.UserCreateRequestDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClamProject.WeatherForecast, ClamProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "ClamProject.Models.User",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -17,7 +23,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]

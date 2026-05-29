@@ -11,23 +11,7 @@ namespace ClamProject.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            // USER
-            modelBuilder.Entity<User>()
-                .HasKey(u => u.Id);
-
-            modelBuilder.Entity<User>()
-                .HasIndex(u => u.Email)
-                .IsUnique();
-
-            modelBuilder.Entity<User>()
-                .HasIndex(u => u.UserName)
-                .IsUnique();
-
-            // ONE TO ONE relationship
-            modelBuilder.Entity<User>()
-                .HasOne(u => u.UserProfile)
-                .WithOne(p => p.User)
-                .HasForeignKey<UserProfile>(p => p.UserId);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ClamDbContext).Assembly);
         }
 
 
