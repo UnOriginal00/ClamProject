@@ -3,9 +3,11 @@ using ClamProject.Models;
 using ClamProject.Models.DTO_s;
 using ClamProject.Services;
 using ClamProject.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography;
 
 namespace ClamProject.Controllers
 {
@@ -17,17 +19,17 @@ namespace ClamProject.Controllers
         private readonly IUserService _services = userService;
 
         //Adding new user to db via DTO
+        
         [HttpPost("register")]
         public async Task<ActionResult<User>> CreateUser(UserCreateRequestDTO register) {
             //Required User Info for adding to db
             User user = new User{
 
                 UserName = register.UserName,
-                PasswordHash = register.Password,
                 Email = register.Email
 
                 };
-            _ = new PasswordHasher<User>()
+            user.PasswordHash = new PasswordHasher<User>()
                 .HashPassword(user, register.Password);
 
 
@@ -39,6 +41,7 @@ namespace ClamProject.Controllers
             return Ok(user);
         }
 
+        
         [HttpPost("login")]
         public async Task<ActionResult<User>> Login(UserLoginDTO request)
         {
@@ -49,6 +52,9 @@ namespace ClamProject.Controllers
 
             if (user.PasswordHash != request.Password || user.Email != request.Email)
                 return BadRequest("Email or Password was incorrect.");
+
+            //If user authentication was verified
+            
 
             return Ok(user);
         }

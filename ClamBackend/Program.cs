@@ -6,7 +6,7 @@ using ClamProject.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Add db context service
+//Add db context service.
 builder.Services.AddDbContext<ClamDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
