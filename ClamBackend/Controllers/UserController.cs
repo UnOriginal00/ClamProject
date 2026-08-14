@@ -13,12 +13,9 @@ namespace ClamBackend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    // Using an interface for abstraction and unit testing ( Idk if this is over engineering yet )
-public class UserController : ControllerBase
+    // Using an interface for abstraction and unit testing ( Idk if this is over engineering yet -- Its not low key basic )
+public class UserController(IUserService _userService) : ControllerBase
 {
-    private readonly IUserService _userService;
-    public UserController(IUserService userService) => _userService = userService;
-
         //Adding new user to db via DTO
         
         [HttpPost("register")]
