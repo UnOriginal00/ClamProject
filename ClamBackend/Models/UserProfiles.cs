@@ -1,4 +1,4 @@
-﻿namespace ClamProject.Models
+﻿namespace ClamBackend.Models
 {
     public class UserProfile
     {

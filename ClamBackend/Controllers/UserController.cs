@@ -1,22 +1,23 @@
-﻿using ClamProject.Data;
-using ClamProject.Models;
-using ClamProject.Models.DTO_s;
-using ClamProject.Services;
-using ClamProject.Services.Interfaces;
+﻿using ClamBackend.Data;
+using ClamBackend.Models;
+using ClamBackend.Models.DTOs;
+using ClamBackend.Services;
+using ClamBackend.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
 
-namespace ClamProject.Controllers
+namespace ClamBackend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     // Using an interface for abstraction and unit testing ( Idk if this is over engineering yet )
-    public class UserController(IUserService userService) : ControllerBase
-    {
-        private readonly IUserService _services = userService;
+public class UserController : ControllerBase
+{
+    private readonly IUserService _userService;
+    public UserController(IUserService userService) => _userService = userService;
 
         //Adding new user to db via DTO
         
@@ -36,7 +37,7 @@ namespace ClamProject.Controllers
             if (register is null)
                 return BadRequest("Please input proper user info");
 
-            await _services.AddUserToDatabase(user);
+            await _userService.AddUserToDatabase(user);
 
             return Ok(user);
         }
@@ -66,7 +67,7 @@ namespace ClamProject.Controllers
             if(id == null)
                 return NotFound();
 
-            User user = await _services.GetUser(id);
+            User user = await _userService.GetUser(id);
 
             return Ok(user);
         }

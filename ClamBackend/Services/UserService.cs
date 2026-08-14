@@ -1,27 +1,24 @@
-﻿using ClamProject.Data;
-using ClamProject.Models;
-using ClamProject.Services.Interfaces;
+﻿using ClamBackend.Data;
+using ClamBackend.Models;
+using ClamBackend.Services.Interfaces;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using System.Runtime.CompilerServices;
 
-
-namespace ClamProject.Services
+namespace ClamBackend.Services
 {
-    public class UserService(ClamDbContext context) : IUserService
+    public class UserService : IUserService
     {
+        private readonly ClamDbContext _context;
+        public UserService(ClamDbContext context) => _context = context;
 
-       private readonly ClamDbContext _context = context;
-
-       public async Task AddUserToDatabase(User user)
+        public async Task AddUserToDatabase(User user)
         {
-             _context.Users.Add(user);
+            _context.Users.Add(user);
             await _context.SaveChangesAsync();
         }
 
-       public async Task<User?> GetUser(Guid id)
+        public async Task<User?> GetUser(Guid id)
         {
-           return await _context.Users.FindAsync(id);
+            return await _context.Users.FindAsync(id);
         }
-
     }
 }

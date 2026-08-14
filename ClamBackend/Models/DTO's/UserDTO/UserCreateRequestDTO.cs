@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ClamProject.Models.DTO_s
+namespace ClamBackend.Models.DTOs
 {
     public class UserCreateRequestDTO
     {

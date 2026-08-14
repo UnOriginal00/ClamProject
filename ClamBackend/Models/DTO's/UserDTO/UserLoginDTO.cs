@@ -1,4 +1,4 @@
-﻿namespace ClamProject.Models.DTO_s
+﻿namespace ClamBackend.Models.DTOs
 {
     public class UserLoginDTO
     {

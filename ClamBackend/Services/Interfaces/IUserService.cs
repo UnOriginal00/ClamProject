@@ -1,8 +1,8 @@
-﻿using ClamProject.Data;
-using ClamProject.Models;
+﻿using ClamBackend.Data;
+using ClamBackend.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ClamProject.Services.Interfaces
+namespace ClamBackend.Services.Interfaces
 {
     public interface IUserService
     {

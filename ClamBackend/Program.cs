@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
-using ClamProject.Data;
-using ClamProject.Services;
-using ClamProject.Services.Interfaces;
+using ClamBackend.Data;
+using ClamBackend.Services;
+using ClamBackend.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,10 +15,15 @@ builder.Services.AddDbContext<ClamDbContext>(options =>
 );
 
 builder.Services.AddScoped<IUserService,UserService>();
+builder.Services.AddScoped<ITeamService,TeamService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+//Jwt
+string jwtSecret = builder.Configuration["JwtSettings:Secret"];
+string jwtIssuer = builder.Configuration["JwtSettings:Issuer"];
 
 var app = builder.Build();
 

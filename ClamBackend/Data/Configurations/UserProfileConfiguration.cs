@@ -1,8 +1,8 @@
-﻿using ClamProject.Models;
+﻿using ClamBackend.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace ClamProject.Data.Configurations
+namespace ClamBackend.Data.Configurations
 {
     public class UserProfileConfiguration : IEntityTypeConfiguration<UserProfile>
     {
