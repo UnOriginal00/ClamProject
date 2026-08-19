@@ -5,11 +5,8 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace ClamBackend.Services
 {
-    public class UserService : IUserService
+    public class UserService(ClamDbContext _context) : IUserService
     {
-        private readonly ClamDbContext _context;
-        public UserService(ClamDbContext context) => _context = context;
-
         public async Task AddUserToDatabase(User user)
         {
             _context.Users.Add(user);
